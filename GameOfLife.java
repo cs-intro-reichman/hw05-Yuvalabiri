@@ -144,7 +144,7 @@ public class GameOfLife {
 		//// Write your code here.
 		for (int i = 1; i < (board.length - 1); i++) {
 			for (int j = 1; j < (board[i].length - 1); j++) {
-			System.out.printf("%3s " , board[i][j]);
+			System.out.printf("%2s " , board[i][j]);
 			}
 			System.out.println();
 		}
